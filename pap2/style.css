@@ -1,13 +1,13 @@
 form{
     background-color: lightgray;
-    border: 2px;
-    border-style: groove;
+    border: 0;
     border-radius: 20px;
     padding: 10px;
+    box-shadow:0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 body{
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 500px;
+    padding-right: 500px;
 }
 h2{
     text-align: center;
@@ -21,4 +21,9 @@ label{
     height: 50px;
     width: 100px;
     border-radius: 10px;
+    color: white;
+    border: none;
+}
+.b1:hover{
+    background-color: red;
 }
