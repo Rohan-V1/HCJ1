@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: antiquewhite;
+    box-shadow: 0 5px 25px rgba(122, 88, 4, 0.06);
+    position: sticky;
+    top: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar li{
+    padding: 0 20px;
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500px;
+    color: #000000;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: rgb(210, 200, 14);
+}
+
+/*home page*/
+
+#Top{
+    background-image: url("Pic/hero4.png"); 
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0px 80px ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+#Top h1{
+    color: rgb(39, 182, 39);
+}
+
+#Top h2{
+    
+}
+
+#Top h4{
+    padding-bottom: 15px;
+}
+
+#Top button{
+    background-image: url("Pic/button.png");
+    border: 0;
+    background-color: transparent;
+    color: rgb(39, 182, 39);
+    padding: 14px 80px 14px 65px;
+    font-size: 15px;
+    font-weight: 800px;
+}
