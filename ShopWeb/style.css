@@ -126,14 +126,100 @@
 }
 
 .products{
-    border: 1px solid rgb(237, 199, 130);
+    border: 1px solid rgb(225, 223, 220);
     width: 23%;
     margin-top: 30px;
     border-radius: 20px;
+    position: relative;
+    text-align: end;
+    padding: 10px;
+}
+
+.Featured{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.products:hover{
+    box-shadow: 10px 10px 100px rgba(197, 181, 6, 0.158);
 }
 
 .products img{
     width: 100%;
     border-radius: 20px;
     padding: 10px;
+}
+
+.desc{
+    padding: 10px 10px;
+    text-align: start;
+}
+
+.desc span{
+    font-size: 12px;
+    color: grey;
+}
+
+.desc h5{
+    font-size: 14px;
+    padding-top: 7px;
+}
+
+.star{
+    padding-top: 5px;
+    color: gold;
+}
+
+.cart{
+    background-color: rgb(194, 187, 187);
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    font-weight: 500;
+    color: rgb(125, 224, 125);
+    padding-top: 13px;
+    padding-right: 11px;
+    border: 1px solid #a39e9e;
+}
+
+/*Banner*/
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Pic/b2.jpg");
+    height: 40vh;
+}
+
+#banner h4{
+    font-size: 16px;
+    color: white;
+    padding: 10px 0;
+}
+
+#banner h2{
+    font-size: 30px;
+    color: white;
+    padding: 10px 0;
+}
+
+#banner h2 span{
+    color: red;
+}
+
+#banner button{
+    background-color: white;
+    padding: 15px 30px;
+    border: solid black;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: larger;
+}
+
+#banner button:hover{
+    background-color: rgb(115, 235, 115);
+    color: white;
 }
