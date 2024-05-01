@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-color: rgb(237, 209, 172);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    position: sticky;
+    top: 0;
+}
+
+#header #l  img{
+    height: 40px;
+    width: 40px;
+}
+
+#header .nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .nav ul li {
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+#header .nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#header .nav ul li a:hover {
+    color: gold;
+}
+
+
+#header .log ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .log ul li {
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+#header .log ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+#top{
+    background-image: linear-gradient(to right, blue,purple);
+}
+
+.login{
+    background-image: url("logback.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login section{
+    border: solid 1px;
+    border-color: black;
+    padding: 30px;
+    border-radius: 30px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+
+.login section h2{
+    font-size: 30px;
+}
+
+.login section .user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.login section .user h4{
+    padding-right: 30px;
+    font-size: 20px;
+}
